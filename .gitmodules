@@ -1,0 +1,3 @@
+[submodule "cpp/CJsonObject"]
+	path = cpp/CJsonObject
+	url = https://github.com/Bwar/CJsonObject.git
