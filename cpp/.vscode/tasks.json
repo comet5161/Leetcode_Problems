@@ -3,18 +3,16 @@
     "tasks": [
         {
             "type": "shell",
-            "label": "g++.exe build active file",
-            "command": "C:\\mingw-w64\\bin\\g++.exe",
+            "label": "mac g++ build active file",
+            "command": "/usr/bin/g++",
             "args": [
                 "-g",
                 "${file}",
-                "${fileDirname}\\CJsonObject\\CJsonObject.cpp",
-                "${fileDirname}\\CJsonObject\\cJSON.c",
                 "-o",
-                "${fileDirname}\\debug\\${fileBasenameNoExtension}.exe"
+                "${fileDirname}/debug/${fileBasenameNoExtension}"
             ],
             "options": {
-                "cwd": "C:\\mingw-w64\\bin"
+                "cwd": "/usr/bin"
             },
             "problemMatcher": [
                 "$gcc"
